@@ -1,0 +1,13 @@
+.nav-link {
+    margin: 1rem 0;
+}
+
+.nav-link .active {
+    color: wheat;
+}
+
+.nav-link a {
+    margin-right: 1rem;
+    color: white;
+}
+

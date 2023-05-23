@@ -1,0 +1,38 @@
+.add-blog-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.add-blog-form textarea,
+.add-blog-form input {
+    margin-bottom: 10px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px #888;
+}
+
+.add-blog-form label {
+    color: white;
+}
+
+.add-blog-form #summary {
+    height: 4rem;
+}
+
+.add-blog-form input[type="text"],
+.add-blog-form textarea {
+  width: 300px;
+}
+
+.add-blog-form button {
+    margin-top: 20px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #333;
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+  }

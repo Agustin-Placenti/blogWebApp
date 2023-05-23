@@ -1,0 +1,44 @@
+.blog-grid-item {
+    background-color: #f2f2f2;
+    border: 1px solid #ccc;
+    padding: 20px;
+    max-height: 11.25rem;
+    overflow: overlay;
+}
+
+.blog-header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.blog-title {
+    font-size: 1.2em;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.blog-author {
+    font-style: italic;
+    margin-bottom: 5px;
+}
+
+.blog-date {
+    font-style: italic;
+    margin-bottom: 5px;
+}
+
+.blog-summary {
+    margin-top: 10px;
+}
+
+.delete-card-button {
+    height: 1.5rem;
+    cursor: pointer;
+    border: none;
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+.delete-card-button:hover {
+    color: gray
+}
